@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    {\Huge \scshape Amit Dilip Jaiswal} \\ \vspace{3pt}
+    \small \raisebox{-0.1\height}\faPhone\ {{+91 9022217954}} ~ \href{mailto:amitdilipjaiswal191220@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{{amitdilipjaiswal191220@gmail.com}}} ~ 
+    \href{https://www.linkedin.com/in/amit-jaiswal-b062811a3/}{\raisebox{-0.2\height}\faLinkedin\ \underline{{amit-jaiswal-b062811a3}}}  ~
+    \href{https://github.com/Amit-code-eng}{\raisebox{-0.2\height}\faGithub\ \underline{{Amit-code-eng}}}
+    \vspace{-5pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute Of Technology BHU (Varanasi)}{July 2019 -- June 2023}
+      {Bachelor of Technology in Civil Engineering $|$ CGPA : \textbf{8.68/10}}{Varanasi, UP}
+  \resumeSubHeadingListEnd
+
+ \vspace{-12pt}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: C, C++, Python, Java, HTML/CSS, Javascript, SQL} \\
+     \textbf{Core}{:  Data Structures, Algorithms, Operating Systems, Database Management Systems (DBMS), OOPs} \\
+     \textbf{Technologies/Frameworks}{:  Bootstrap, React, Microsoft Office} \\
+     \textbf{Developer Tools}{: Git \& Github, VS Code, Overleaf} \\
+    }}
+ \end{itemize}
+ \vspace{-20pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {VINAYAK REAL ESTATE PROPERTY HUB}{May 2022 -- July 2022}
+      {Python Engineer Intern}{}
+      \resumeItemListStart
+        \resumeItem{Collaboration with Data Management Teams. Created a Python software utilising Open CV and Python libraries.}
+        \resumeItem{Using pyautogui, a webbrowser, and more libraries, automate the sending of Whatsapp messages in bulk.}
+        \resumeItem{Using Click to Chat feature (\textbf{https://wa.me/$<$number$>$}). It 10X improves Work's effectiveness and performance.}
+        \resumeItem{\textbf{Exposures:} Python, Jupyter-lab, Numpy, Pandas, PyAutoGui, webbrowser, etc.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\textbf{Path - Finding Visualizer} $|$ \emph{BFS, Dijkstra's, A* Search algorithm, HTML, CSS, Javascript}}{Dec 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a Pathfinding Visualizer that gives the visual representation of the shortest path from source to destination
+            with some obstacles in a grid using multiple shortest path algorithms.}
+            \resumeItem{Provided users the interface through which they can visualize the shortest path from source to destination through
+            Breadth - First Search, Dijkstra's and A* Search Algorithms which are implemented in Javascript.
+}
+          \resumeItemListEnd
+        \vspace{-12pt}
+
+\resumeProjectHeading
+        {\textbf{Face Mask Detection Alert System} $|$ \emph{Python, Jupyter-lab, OpenCV, Support Vector Machine}}{Dec 2022}
+          \resumeItemListStart
+            \resumeItem{Explored haarcascade frontalface dataset to detect front face. Collected my own face data with and without mask using camera and stored both datasets using OpenCV.
+}
+            \resumeItem{Included a Beep alert which will be generated until mask is put on.Applied Machine Learning model i.e Support Vector Machine and achieved an accuracy of 98 \% on live data.}
+          \resumeItemListEnd
+        \vspace{-12pt}
+        
+        \resumeProjectHeading
+        {\textbf{Huffman Compression Algorithm} $|$ \emph{C++, Data Structure and Algorithms, OOPs, STL}}{June 2021}
+          \resumeItemListStart
+            \resumeItem{Huffman coding is a lossless data compression algorithm. Engineered encode to decode and vice versa.
+}
+            \resumeItem{It follows \textbf{Optimal-merge Pattern}, learned various data structure like map, priority queue, classes, greedy algorithm.}
+            
+          \resumeItemListEnd
+         
+    \resumeSubHeadingListEnd
+\vspace{-25pt}
+
+%--------------Competitive Programming---------
+\section{Honours And Achievements}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+\resumeProjectHeading
+        {\textbf{Competitive Programming}}{}
+        \resumeItemListStart
+
+  \resumeItem{Solved over \textbf{900 problems} on online Competitive Programming Plateforms like  Codeforces, geekforgeeks \&  {\href{https://leetcode.com/BoRoS4444/}{\textcolor{blue}{Leetcode}}}.}
+        
+        \resumeItem{{\textbf{Codeforces $|$ Max Rating :} {\href{https://codeforces.com/profile/BoRoS4444}{\textcolor{blue}{Profile}}}}{}.}
+       
+          \resumeItem{Rank of 2883 in Google Kick Start Round E, 2021. 1119809 points in Google Hash Code 2022. $|$ {\href{https://drive.google.com/drive/folders/1-VBBGuS5D2wYUL2vgizWIv4f-onH6lZV}{\textcolor{blue}{Certificates}}}.}
+        
+\resumeItemListEnd
+\vspace{-12pt}
+
+\resumeProjectHeading
+        {\textbf{Extra-Currilar Activities} }{}
+        \resumeItemListStart
+        \resumeItem{Worked on DrumSpinning Robot in "ROBOWAR" event organized by Technex, \textbf{IIT (BHU)}.}
+        \resumeItem{Participated in the HYDRAC'S event organized by Technex, IIT (BHU).}
+        \resumeItem{AOSP/Android Custom Rom/Android Rooting Enthusiast.}
+        \resumeItemListEnd
+
+
+    \resumeSubHeadingListEnd
+
+ \vspace{-16pt}
+
+\end{document}
