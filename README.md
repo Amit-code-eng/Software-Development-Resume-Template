@@ -1,3 +1,3 @@
 # Overleaf-Resume-Template
 
-[![Resume](resume.jpg)]
+[![Resume](resume.png)]
