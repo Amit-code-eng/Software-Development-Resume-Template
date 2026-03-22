@@ -1,3 +1,3 @@
-# Overleaf-Software-Development-Profile-Resume-Template
+# Overleaf-Resume-Template
 
-![SDE_Resume](SDE_Resume.jpg)
+![Resume](Resume.jpg)
