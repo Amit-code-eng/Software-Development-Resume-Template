@@ -1,3 +1,3 @@
 # Overleaf-Resume-Template
 
-[ View Resume](SDE_Resume.pdf)
+[![Resume](SDE_fffResume.jpg)](SDE_Resume.pdf)
